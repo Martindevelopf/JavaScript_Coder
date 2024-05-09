@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+
+}
+body{
+    background-image: url(../assets/Fondo_Escuela_YOGA.avif);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+}
+h1, h2{
+    color:white;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+.ListaCursos{
+   font-size: 20px;
+    border: 1px solid blue;
+    border-radius: 20px;
+    background-color: #A0DEFF;
+    padding: 20px;
+    list-style: none;
+    
+}
