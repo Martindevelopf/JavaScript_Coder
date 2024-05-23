@@ -1,10 +1,3 @@
-/*
-CREAR UN ALGORITMO CON UN CONDICIONAL
-CRAR UN ALGORITMO  UTILIOZANDO UN CICLO
-TAMBIEN CREAR UN SIMULAOR INTERACTIVO
-UTILIZAR FUNCIONES
-
-*/
 
 const CursoYoga = 15000;
 const CursoRef = 12000;
@@ -38,7 +31,7 @@ function mostrarValorCuota(codigoCurso) {
     
     let numeroCuotas = parseInt(prompt("Ingrese el número de cuotas (máximo 6):"));
 
-    if ( numeroCuotas <= 0 || numeroCuotas > 6) {
+    
         console.error("El número de cuotas ingresado no es válido.");
     
     }
@@ -71,10 +64,10 @@ function mostrarValorCuota(codigoCurso) {
     for (let i = 1; i <= numeroCuotas; i++) {
         console.log("Cuota " + i + ": $" + valorCuota.toFixed(2));
     }
-}
+
 
 
 let codigoCurso = parseInt(prompt("Ingrese el código del curso:\n1 - Yoga\n2 - Reflexología\n3 - Kundalini\n4 - Reiki"));
-mostrarValorCursos(codigoCurso);
-mostrarValorCuota(codigoCurso);
+//mostrarValorCursos(codigoCurso);
+//mostrarValorCuota(codigoCurso);
 
